@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I was able to quickly compare the same line numbers by focusing on how they were different, and spotted the typo.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can see the evolution of the file over time, and revert to any prior version if things become too broken.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: you can group commits to reflect logical changes that make sense
+
+    Cons: commits could be too infrequent or larger than necessary, not automated
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Google Docs doesn't use the concept of a repository, and saving groups of files
+    together as a single entity.  It focuses only on individual files with no
+    correlation between them.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Fill in your answer here
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Fill in your answer here
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
+
+How can you use the commands git log and git diff to view the history of files?
+    git log lets you review the revision history of the project.
+    git diff lets you see the actual changes that were made from one revision to the next
+
+How might using version control make you more confident to make changes that could break something?
+    Knowing that I can revert back to a known good version of my code, I feel more confident making
+    changes that could potentially break something because I can always go back to that known good
+    state.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+    I'd like to use Git to create Python, Java and PHP scripts and programs.
