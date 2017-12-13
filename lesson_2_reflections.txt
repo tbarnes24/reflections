@@ -1,0 +1,8 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git records the current version of each file and links them together.  You need to do it so that
+the existing version of each file is associated with every other file when a commit is executed.
+
+Caroline's answer:
+
+
