@@ -5,4 +5,10 @@ the existing version of each file is associated with every other file when a com
 
 Caroline's answer:
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
 
+The staging area is different from the working dir in that the former is an abstract psuedo directory where Git
+can add things that are in the working dir.  So you can have files that are in the working dir, but not in the
+staging area.
+
+It allows you to pick and choose which things in a directory you want to add to a repository via a commit.
