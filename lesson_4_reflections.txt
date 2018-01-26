@@ -13,4 +13,6 @@ What is the benefit of having a copy of the last known state of the remote store
   If you're going to be working without internet access, you can still see the diff in local and origin/master
   when you last pulled from it.
 
-  
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  You could have local copies of the same file, but with multiple people all working on it, you'd have to diff all versions,
+  manually merging in changes from each to your own.
