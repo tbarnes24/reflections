@@ -16,3 +16,11 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
   You could have local copies of the same file, but with multiple people all working on it, you'd have to diff all versions,
   manually merging in changes from each to your own.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+  I would make simple corrections directly in the master, and create a separate branch for new features or functionality.
+
+  The benefit to editing the master directly is expediency, you can get a fix out for everyone quickly.
+
+  The benefit to creating a separate branch is that you can diverge and update your local copy without breaking something
+  that someone else might be working on.  When you merge the master into your branch, you can resolve any new conflicts.
